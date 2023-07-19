@@ -23,8 +23,8 @@ export const App: FC = () => {
     return { ...contact, id: nanoid() };
   });
 
-  const [contacts, setContacts] = useState<IContact[] | []>(
-    () => storageContacts ?? initialContacts
+  const [contacts, setContacts] = useState<IContact[] | []>(() =>
+    storageContacts.length > 0 ? storageContacts : initialContacts
   );
   const [filter, setFilter] = useState<string>("");
 
