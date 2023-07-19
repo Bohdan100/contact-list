@@ -1,8 +1,8 @@
 {
-  "name": "image-finder",
+  "name": "contact-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bohdan100.github.io/image-finder/",
+  "homepage": "https://Bohdan100.github.io/contact-list/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
